@@ -1,0 +1,18 @@
+#card
+{
+    border-radius: 200px;
+    background-color:lightyellow;
+    color:rgb(120, 32, 58);
+}
+
+#card:hover
+{
+    color:rgb(156, 194, 86);
+    background-color: rgb(42, 86, 168);
+    
+}
+#image
+{
+    border-radius: 200%;
+    border-width: 10px;
+}

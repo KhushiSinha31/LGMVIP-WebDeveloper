@@ -1,0 +1,352 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';html { scroll-behavior: smooth;}
+body, html {
+      height: 100%;
+      margin: 0;
+      font: 400 15px/1.8 'Montserrat', sans-serif;
+      color: rgb(185, 185, 185);
+      background-image: url(https://cdn.wallpapersafari.com/7/42/xqlgfA.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    
+.sec_head span {
+  color: crimson;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  p{
+    font-size:20px
+  }
+.context {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+  }
+.but_intro{
+  background-color: lightskyblue;
+  border-radius: 6px;
+  border: 0;
+  padding: 8px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+.but_intro:hover{
+  transition: 200ms;
+  background-color: crimson;
+  color: aliceblue;
+  border: 0;
+  scale: 1.03;
+  /* padding: 5px; */
+}
+
+section {
+	padding: 100px 10% 20px 10%;
+}
+.nav-link nav>.active{
+  color:gold;
+}
+.sec_head{
+  text-align:center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(218, 218, 218);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+.header{
+  font-size:25px;
+  color: rgb(33, 0, 44);
+  font-weight: bold;
+}
+.card_icon {
+	height: 12%;
+	background-color: lightskyblue;
+	border-radius: 50%;
+	height: 65px;
+	padding: 10px;
+}
+.col-sm-6{
+  margin-top: 20px;
+  width: 70%;
+  margin: auto;
+}
+.custom-column {
+	background-color: rgb(240, 240, 240);
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.scrolling-wrapper {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+.proj:hover{
+		box-shadow: none;
+    
+}
+.proj{
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+}
+.col-5{
+  height:232px;
+	border: 1px;
+	background-position: center;
+	background-size: cover;
+}
+.profile{
+  height:200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social_links{
+  background-color: rgba(137, 43, 226, 0);
+  transition: all 0.5s ease-in-out !important;
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: "hidden";
+}
+.social_links:hover{
+  background-color: rgba(22, 21, 22, 0.616);
+  background-size: cover;
+  overflow: "hidden";
+}
+.social_links:hover > .social_icons{
+  display:inline;
+}
+.social_icons{
+  height: 30px;
+  width: 30px;
+  display: none;
+  transition: all 0.5s ease-in-out !important;
+  position: absolute;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  background-image: url("../Assets/facebook.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+#social_fb{
+  left: 30%;
+  background-image: url('../Assets/facebook.png');
+}
+#social_t{
+  left: 50%;
+  background-image: url('../Assets/twitter.png');
+}
+#social_g{
+  left: 70%;
+  background-image: url('../Assets/google.png');
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%
+}
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top: 20px
+}
+
+#custCarousel .carousel-indicators>li {
+  width: 100px
+}
+
+#custCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5
+}
+
+#custCarousel .carousel-indicators li.active img {
+  opacity: 1
+}
+
+#custCarousel .carousel-indicators li:hover img {
+  opacity: 0.75
+}
+
+.carousel-item img {
+  width: 80%;
+}
+
+#img_slide{
+  height: 200px;
+}
+#email_input{
+  width: 35%;
+  border:none;
+  border-radius: 3px;
+  height: 40px;
+  font-size: 21px;
+}
+.subscribe{
+  background-color: lightskyblue;
+  border-radius: 6px;
+  border: 0;
+  padding: 8px;
+  font-size: 15px;
+}
+.subscribe:hover{
+  transition: 200ms;
+  background-color: crimson;
+  color: aliceblue;
+}
+
+footer{
+  padding: 1% 15% 3% 15%;
+}
+
+.footer_links{
+  height: 35px;
+}
+.footer_icons{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  display: inline;
+  padding-left: 44px;
+}
+#footer_fb{
+  left: 30%;
+  background-image: url('../Assets/facebook.png');
+}
+#footer_t{
+  left: 50%;
+  background-image: url('../Assets/twitter.png');
+}
+#footer_g{
+  left: 70%;
+  background-image: url('../Assets/google.png');
+}
+#footer_ins{
+  left: 30%;
+  background-image: url('../Assets/instagram.png');
+}
+#footer_lkd{
+  left: 50%;
+  background-image: url('../Assets/linkedin.png');
+}
+#footer_rdt{
+  left: 70%;
+  background-image: url('../Assets/github.png');
+}
+
+.col_video{
+  height: 228px;
+  /* width: 207%; */
+}
+.video{
+  height: inherit;
+  width: inherit;
+  height: 260px;
+  width: 400;
+  border:none;
+}
+.foot_head{
+  font-size:22px;
+  color: burlywood;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact_field{
+  width: 75%;
+  margin-bottom: 15px;
+  border: none;
+}
+#message{
+  resize: none;
+}
+#send{
+  background-color: rgb(120, 83, 133);
+  color:rgb(255, 255, 255);
+  padding: 6px;
+}
+
+#pricing .pricing {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+#pricing .pricing-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#pricing .pricing-item {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(../Assets/img-1.png);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#pricing .pricing-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#pricing .pricing-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#pricing .pricing-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#pricing .pricing-item p {
+	color: white;
+	text-align: left;
+}
+@media only screen and (min-width: 1200px) {
+  #pricing .pricing-bottom .pricing-item {
+		flex-basis: 22%;
+		margin:2%;
+	}
+}
